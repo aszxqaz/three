@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "start": "npx http-server ./dist",
-    "start:docker": "npx http-server -p 3003 ./dist"
+    "start": "npx http-server ./dist"
   },
   "dependencies": {
     "@react-three/drei": "^9.57.0",

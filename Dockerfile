@@ -1,5 +1,5 @@
-FROM node:16-alpine
+FROM node
 WORKDIR /app
-COPY dist .
+COPY dist dist
 COPY package.json .
 CMD [ "npm", "run", "start:docker" ]

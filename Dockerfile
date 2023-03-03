@@ -1,5 +1,5 @@
 FROM node:16-alpine
 WORKDIR /app
-COPY . .
-RUN npm i && npm run build
+COPY dist .
+COPY package.json .
 CMD [ "npm", "run", "start:docker" ]
